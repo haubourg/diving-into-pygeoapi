@@ -209,6 +209,31 @@ resources:
                 y_field: lat
     # END - EXERCISE 1 - Your First Collection
 
+    firenze-terrains:
+        type: collection 
+        title: Administrative boundaries before 2014
+        description: Cadastral parcels (terrains) from the cadastre. Territory Agency; SIT and Information Networks;
+        keywords:  
+            - Cadastral parcels
+        links:
+            - type: text/html
+              rel: canonical  
+              title: Administrative boundaries before 2014
+              href: http://dati.cittametropolitana.fi.it/geonetwork/srv/metadata/cmfi:c539d359-4387-4f83-a6f4-cd546b3d8443
+              hreflang: it
+        extents:
+            spatial: 
+                bbox: [11.23,43.75,11.28,43.78] 
+                crs: http://www.opengis.net/def/crs/OGC/1.3/CRS84
+        providers:
+            - type: feature
+              name: SQLiteGPKG
+              data: /data/firenze_terrains.gpkg # place correct path here
+              id_field: fid
+              title_field: codbo
+              table: firenze_terrains
+
+
 
 #    Cycle:
 #        type: collection
