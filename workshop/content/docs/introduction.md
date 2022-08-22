@@ -29,7 +29,7 @@ on [ogcapi.ogc.org](https://ogcapi.ogc.org).
 
 ## Existing Deployments
 
-A number of organizations have deployed pygeoapi to their operatios. To get a feel of how pygeoapi
+A number of organizations have deployed pygeoapi to their operations. To get a feel of how pygeoapi
 is used in practice, check our up to date [live deployments page](https://github.com/geopython/pygeoapi/wiki/LiveDeployments). By
 default, the pygeoapi public demo at [demo.pygeoapi.io](https://demo.pygeoapi.io) is always maintained
 and made available by the development team. Check out the [main instance](https://demo.pygeoapi.io/master) which
